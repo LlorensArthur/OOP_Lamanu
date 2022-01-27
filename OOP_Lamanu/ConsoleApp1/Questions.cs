@@ -10,12 +10,12 @@ public class Questions
 {
     public Questions(string question1, string question2, string question3, string question4 )
     {
-        fdp.Add(question1);
-        fdp.Add(question2);
-        fdp.Add(question3);
-        fdp.Add(question4);
+        ask.Add(question1);
+        ask.Add(question2);
+        ask.Add(question3);
+        ask.Add(question4);
     }
-    public List<string> fdp = new List<string>();
+    public List<string> ask = new List<string>();
     
   #region Aggregations
 
